@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.5)
+project(9thCircleSpellsAgainstContest)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(binarySearch binarySearch.cpp dfs.cpp dijkstra.cpp readGraphWithWeights.cpp)
+add_executable(readGraph readGraph.cpp)
+add_executable(dfs dfs.cpp)
+add_executable(dijkstra dijkstra.cpp)
+add_executable(readGraphWithWeights readGraphWithWeights.cpp)
+add_executable(floid floid.cpp)
+add_executable(bfs bfs.cpp)
+add_executable(recoverPath recoverPath.cpp)
+add_executable(binaryTree binaryTree.cpp)
+add_executable(dijkstra3k+1 dijkstra3k+1.cpp)
